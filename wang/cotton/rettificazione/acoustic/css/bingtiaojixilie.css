@@ -1,0 +1,178 @@
+.bingtiaoxilie-container{
+	width: 100%;
+	height: 100%;
+}
+.bingtiaoxilie-container .header{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+.bingtiaoxilie-container .space1{
+	margin-top: 0.88rem;
+	width: 100%;
+	height: .2rem;
+	background: #f2f4f7;
+}
+/*总线流程*/
+.bingtiaoxilie-container .zongxianliucheng{
+	width: 100%;
+	padding-top: 0.01rem;
+}
+.bingtiaoxilie-container .zongxianliucheng .zongxianliucheng-title{
+	width: 82.133%;
+	height: 3.733%;
+	margin: .4rem auto .25rem;
+}
+.bingtiaoxilie-container .zongxianliucheng .zongxianliucheng-title img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bingtiaoxilie-container .zongxianliucheng .zongxianliucheng-img{
+	display: block;
+	width: 100%;
+	height: 4.2rem;
+	margin: 0 auto;
+}
+.bingtiaoxilie-container .zongxianliucheng .zongxianliucheng-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.bingtiaoxilie-container .space {
+	width: 100%;
+	height: .2rem;
+	background: #f2f4f7;
+}
+/*经纬1310*/
+.bingtiaoxilie-container .jwf1310{
+	width: 100%;
+	padding-top: 0.01rem;
+}
+.bingtiaoxilie-container .jwf1310 .jwf1310-title{
+	width: 82.133%;
+	height: 3.733%;
+	margin: .4rem auto .85rem;
+}
+.bingtiaoxilie-container .jwf1310 .jwf1310-title img{
+	display: block;
+	width: 100%;
+}
+.bingtiaoxilie-container .jwf1310 .jwf1310-img{
+	display: block;
+	width: 76%;
+	height: 24%;
+	margin: 0 auto;
+	margin-bottom: .5rem;
+}
+.bingtiaoxilie-container .jwf1310 .jwf1310-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*经纬纺1312*/
+.bingtiaoxilie-container .jwf1312{
+	width: 100%;
+	padding-top: 0.01rem;
+}
+.bingtiaoxilie-container .jwf1312 .jwf1312-title{
+	width: 82.133%;
+	height: 3.733%;
+	margin: .4rem auto .85rem;
+}
+.bingtiaoxilie-container .jwf1312 .jwf1312-title img{
+	display: block;
+	width: 100%;
+}
+.bingtiaoxilie-container .jwf1312 .jwf1312-img{
+	display: block;
+	width: 77.733%;
+	height: 22.267%;
+	margin: 0 auto;
+	margin-bottom: .7rem;
+}
+.bingtiaoxilie-container .jwf1312 .jwf1312-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*经纬纺1313*/
+.bingtiaoxilie-container .jwf1313{
+	width: 100%;
+	padding-top: 0.01rem;
+}
+.bingtiaoxilie-container .jwf1313 .jwf1313-title{
+	width: 82.133%;
+	height: 3.733%;
+	margin: .4rem auto .85rem;
+}
+.bingtiaoxilie-container .jwf1313 .jwf1313-title img{
+	display: block;
+	width: 100%;
+}
+.bingtiaoxilie-container .jwf1313 .jwf1313-img{
+	display: block;
+	width: 79.6%;
+	height: 20.133%;
+	margin: 0 auto;
+	margin-bottom: .7rem;
+}
+.bingtiaoxilie-container .jwf1313 .jwf1313-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*网络集成系统*/
+
+.bingtiaoxilie-container .wangluojicheng{
+	position: relative;
+	width: 100%;
+	padding-top: 0.01rem;
+/*	margin-bottom: 0.8rem;*/
+	
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-title{
+	width: 82.133%;
+	height: 3.733%;
+	margin: .4rem auto .50rem;
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-title img{
+	display: block;
+	width: 100%;
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-img{
+	width: 100%;
+	height: 66.533%;
+	overflow-y: hidden;
+	overflow-x: auto;
+
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-img::-webkit-scrollbar{
+	width:0px;
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-img div{
+	position: relative;
+	top: 0;
+	left: 0.32rem;
+	width: 14.53rem;
+	height: 4.99rem;
+}
+.bingtiaoxilie-container .wangluojicheng .wangluojicheng-img img{
+	width: 14.53rem;
+	height: 4.6rem;
+}
+.bingtiaoxilie-container .wangluojicheng p{
+	position: absolute;
+	top: 3.44rem;
+	left: 50%;
+	margin-left: -1.785rem;
+	width: 3.57rem;
+	height: .68rem;
+	font-size: .28rem;
+	text-align: center;
+	line-height: .68rem;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	border-radius: .1rem;
+}

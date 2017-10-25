@@ -1,0 +1,176 @@
+@-webkit-keyframes rotate{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@-webkit-keyframes meteor{
+	0%{right: -5%;top:-3%;}
+	100%{right: 98%;top: 97%;}
+}
+
+@-moz-keyframes meteor{
+	0%{right: -5%;top:-3%;}
+	100%{right: 98%;top: 97%;}
+}
+
+@keyframes meteor{
+	0%{right: -5%;top:-3%;}
+	100%{right: 98%;top: 97%;}
+}
+@-webkit-keyframes meteor2{
+	0%{top: -16%;left:29%;}
+	100%{top:28%;left: -15%;}
+}
+
+@-moz-keyframes meteor2{
+	0%{top: -16%;left:29%;}
+	100%{top:28%;left: -15%;}
+}
+
+@keyframes meteor2{
+	0%{top: -16%;left:29%;}
+	100%{top:28%;left: -15%;}
+}
+
+@-webkit-keyframes meteor5{
+	0%{bottom: 50%;right: -14%;}
+	100%{bottom: -11%;right: 47%;}
+}
+
+@-moz-keyframes meteor5{
+	0%{bottom: 50%;right: -14%;}
+	100%{bottom: -11%;right: 47%;}
+}
+
+@keyframes meteor5{
+	0%{bottom: 50%;right: -14%;}
+	100%{bottom: -11%;right: 47%;}
+}
+
+@-webkit-keyframes triangle1{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes triangle1{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes triangle1{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-webkit-keyframes round2{
+	0%{width: 3rem;height: 3rem;}
+	100%{width: 5.4rem;height: 5.4rem;}
+}
+
+@-moz-keyframes round2{
+	0%{width: 3rem;height: 3rem;}
+	100%{width: 5.4rem;height:5.4rem;}
+}
+
+@-ms-keyframes round2{
+	0%{width: 3rem;height: 3rem;}
+	100%{width: 5.4rem;height:5.4rem;}
+}
+
+@-o-keyframes round2{
+	0%{width: 3rem;height: 3rem;}
+	100%{width: 5.4rem;height:5.4rem;}
+}
+@-khtml-keyframes round2{
+	0%{width: 3rem;height: 3rem;}
+	100%{width: 5.4rem;height:5.4rem;}
+}
+
+@keyframes round2{
+	0%{width:40%;}
+	100%{width: 67.202%;}
+}
+
+@-webkit-keyframes round3{
+	0%{width: 67.202%;}
+	100%{max-width: 107%;left: -3%;}
+}
+
+@-moz-keyframes round3{
+	0%{max-width: 67.202%;}
+	100%{max-width: 107%;left: -3%;}
+}
+
+@-ms-keyframes round3{
+	0%{max-width: 67.202%;}
+	100%{max-width: 107%;left: -3%;}
+}
+
+@-o-keyframes round3{
+	0%{max-width: 67.202%;}
+	100%{max-width: 107%;left: -3%;}
+}
+
+@keyframes round3{
+	0%{max-width: 67.202%;}
+	100%{max-width: 107%;left: -3%;}
+}
+
+@-webkit-keyframes round4{
+	0%{max-width: 107%;left: -3%;}
+	100%{max-width: 157%;left: -29%;}
+}
+
+@-moz-keyframes round4{
+	0%{max-width: 107%;left: -3%;}
+	100%{max-width: 157%;left: -29%;}
+}
+
+@-ms-keyframes round4{
+	0%{max-width: 107%;left: -3%;}
+	100%{max-width: 157%;left: -29%;}
+}
+
+@-o-keyframes round4{
+	0%{max-width: 107%;left: -3%;}
+	100%{max-width: 157%;left: -29%;}
+}
+
+@keyframes round5{
+	0%{max-width: 107%;left: -3%;}
+	100%{max-width: 157%;left: -29%;}
+}
+
+@-webkit-keyframes round5{
+	0%{max-width: 157%;left: -29%;}
+	100%{max-width: 190%;left: -44%;}
+}
+
+@-moz-keyframes round5{
+	0%{max-width: 157%;left: -29%;}
+	100%{max-width: 190%;left: -44%;}
+}
+
+@-ms-keyframes round5{
+	0%{max-width: 157%;left: -29%;}
+	100%{max-width: 190%;left: -44%;}
+}
+
+@-o-keyframes round5{
+	0%{max-width: 157%;left: -29%;}
+	100%{max-width: 190%;left: -44%;}
+}
+
+@keyframes round5{
+	0%{max-width: 157%;left: -29%;}
+	100%{max-width: 190%;left: -44%;}
+}

@@ -1,0 +1,211 @@
+body{
+    background: #f2f4f7;
+}
+/*@media screen and (orientation: portrait) {*/
+    /*!*竖屏 css*!*/
+    /*.cont-checks{*/
+        /*display: block;*/
+    /*}*/
+
+/*}*/
+/*@media screen and (orientation: landscape) {*/
+    /*!*横屏 css*!*/
+    /*.cont-checks{*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+.content{
+    position: relative;
+    background: url("../image/wj_bgc.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    box-sizing: border-box;
+    padding: 1.1rem 0 1.96rem 0;
+}
+.cont-shebei{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.cont-shebei img{
+    width:60%;
+    margin: 15% 20% 28% 20%;
+}
+/*选择标签开始*/
+.cont-checks{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cont-checks ul{
+    overflow: hidden;
+}
+
+.cont-checks ul li a{
+    display: inline-block;
+}
+.check-one,.check-three,.check-four,.check-five,.check-six,
+.check-seven,.check-eight,.check-nine,.check-ten,.check-eleven{
+    width: 7.5%;
+}
+/*第一个*/
+.check-one{
+    margin: 35% 0 0 40%;
+}
+.check-one a{
+    width: 100%;
+}
+.check-one a>img{
+    width: 100%;
+}
+/*第二个*/
+.check-two{
+    width: 22%;
+    overflow: hidden;
+    margin-left: 55%;
+    margin-top: 25%;
+}
+.check-two a{
+    display: inline-block;
+}
+.check-twovcros{
+    width: 34%;
+}
+.check-twovcros,.check-vcros{
+    float: left;
+}
+.check-two a>img{
+    width: 100%;
+}
+.check-vcros{
+    width: 66%;
+    display: none;
+}
+.check-vcros a{
+    width: 38%;
+    margin-top: 5%;
+}
+/*第三个*/
+.check-three{
+    margin:15% 0 0 70%;
+}
+.check-three a{
+    display: block;
+    width: 100%;
+}
+.check-three a>img{
+    width: 100%;
+}
+/*第四个*/
+.check-four{
+    margin:0 0 0 27%;
+}
+.check-four a{
+    display: block;
+    width: 100%;
+}
+.check-four a>img{
+    width: 100%;
+}
+/*第五个*/
+.check-five{
+    margin:10% 0 0 64%;
+}
+.check-five a{
+    display: block;
+    width: 100%;
+}
+.check-five a>img{
+    width: 100%;
+}
+/*第六个*/
+.check-six{
+    margin-left: 43%;
+    margin-top: -3%;
+}
+.check-six a{
+    display: block;
+    width: 100%;
+}
+.check-six a>img{
+    width: 100%;
+}
+/*第七个*/
+.check-seven{
+    margin-left: 68%;
+    margin-top: -20%;
+}
+.check-seven a{
+    display: block;
+    width: 100%;
+}
+.check-seven a>img{
+    width: 100%;
+}
+/*第八个*/
+.check-eight{
+    margin-left: 45%;
+    margin-top: -5%;
+}
+.check-eight a{
+    display: block;
+    width: 100%;
+}
+.check-eight a>img{
+    width: 100%;
+}
+/*第九个*/
+.check-nine{
+    margin-top: -15%;
+    margin-left: 35%;
+}
+.check-nine a{
+    display: block;
+    width: 100%;
+}
+.check-nine a>img{
+    width: 100%;
+}
+/*第十个*/
+.check-ten{
+    margin-left: 65%;
+    margin-top: 5%;
+}
+.check-ten a{
+    display: block;
+    width: 100%;
+}
+.check-ten a>img{
+    width: 100%;
+}
+
+/*第十一个*/
+.check-eleven{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.check-eleven a{
+    display: block;
+    width: 100%;
+}
+.check-eleven a>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

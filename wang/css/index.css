@@ -1,0 +1,43 @@
+/**************************************************首页**************************************************/
+.bg{background: url(../img/bg.png) no-repeat;background-size: 100% 100%;width: 100%;height: 100vh;}
+.circle{height: 100%;position: relative;overflow: hidden;}
+.circle img{position: absolute;}
+.rotate{width:40%;animation:rotate 2s infinite linear 0.2s forwards;-webkit-animation:rotate 2s infinite linear 0.2s forwards;-moz-animation:rotate 2s infinite linear 0.2s forwards;}
+.round{width: 16%;}
+.round2{width: 40%;
+animation:round2 2s infinite linear 0.2s forwards;
+-webkit-animation:round2 2s infinite linear 0.2s forwards;
+-moz-animation:round2 2s infinite linear 0.2s forwards;
+-ms-animation:round2 2s infinite linear 0.2s forwards;
+-o-animation:round2 2s infinite linear 0.2s forwards;
+-khtml-animation:round2 2s infinite linear 0.2s forwards;
+}
+.round3{max-width: 67.202%;
+	animation:round3 2s infinite linear 2.2s forwards;
+	-webkit-animation:round3 2s infinite linear 2.2s forwards;
+	-moz-animation:round3 2s infinite linear 2.2s forwards;
+	-ms-animation:round3 2s infinite linear 2.2s forwards;
+	-o-animation:round3 2s infinite linear 2.2s forwards;}
+.round4{max-width:107%;left: -3%;
+	animation:round4 2s infinite linear 4.2s forwards;
+	-webkit-animation:round4 2s infinite linear 4.2s forwards;
+	-moz-animation:round4 2s infinite linear 4.2s forwards;
+	-ms-animation:round4 2s infinite linear 4.2s forwards;
+	-o-animation:round4 2s infinite linear 4.2s forwards;}
+.round5{max-width: 157%;top: 0;bottom: 0;margin: auto;left: -29%;
+	animation:round5 2s infinite linear 6.2s forwards;
+	-webkit-animation:round5 2s infinite linear 6.2s forwards;
+	-moz-animation:round5 2s infinite linear 6.2s forwards;
+	-ms-animation:round5 2s infinite linear 6.2s forwards;
+	-o-animation:round5 2s infinite linear 6.2s forwards;}
+.triangle{width: 51.734%;left: 0.4rem;top: 0.3rem;}
+.triangle1{width:8.934%;top:55%;left: 20%;animation:triangle1 1.8s infinite linear 0.2s forwards;-webkit-animation:triangle1 1.8s infinite linear 0.2s forwards;-moz-animation:triangle1 1.8s infinite linear 0.2s forwards;}
+.triangle2{width:6.534%;top: 65%;right: 33%;animation:triangle1 2s infinite linear 0.2s forwards;-webkit-animation:triangle1 2s infinite linear 0.2s forwards;-moz-animation:triangle1 2s infinite linear 0.2s forwards;}
+.triangle3{width: 11.334%;right: 29%;top: 30%;animation:triangle1 3s infinite linear 0.2s forwards;-webkit-animation:triangle1 3s infinite linear 0.2s forwards;-moz-animation:triangle1 3s infinite linear 0.2s forwards;}
+.meteor{right: -5%;top:-3%;animation:meteor 2s infinite linear 0.2s forwards;-webkit-animation:meteor 2s infinite linear 0.2s forwards;-moz-animation:meteor 2s infinite linear 0.2s forwards;}
+.met{width: 18.934%;}
+.meteor2{top:9%;left: 4%;animation:meteor2 1s infinite linear forwards;-webkit-animation:meteor2 1s infinite linear forwards;-moz-animation:meteor2 1s infinite linear forwards;}
+.meteor3{right: 13%;bottom: 14%;}
+.meteor4{bottom: 3%;left: 1.5%;}
+.meteor5{bottom: 50%;right: -14%;animation:meteor5 1.5s infinite linear 0.2s forwards;-webkit-animation:meteor5 1.5s infinite linear 0.2s forwards;-moz-animation:meteor5 1.5s infinite linear 0.2s forwards;}
+.meteor6{width: 14.8%;bottom: -15%;/*animation-delay: 2s;*/display: none;left: 5%;}

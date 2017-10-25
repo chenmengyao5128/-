@@ -1,0 +1,391 @@
+.ldzq-container{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.ldzq-container .content{
+	width:100% ;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ldzq-container .content .section1{
+	width: 100%;
+}
+.ldzq-container .content .section1 p{
+	height: .32rem;
+	margin: 0 auto;
+	margin-top: .8rem;
+	color: #fdfdfd;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.ldzq-container .content .section2{
+	width: 100%;
+}
+.ldzq-container .content .section2 .big-chilun{
+	width: 5.23rem;
+	height: 5.22rem;
+	margin: 0 auto;
+	margin-top: .896rem;
+}
+.ldzq-container .content .section2 .big-chilun img{
+	display: block;
+	width: 100%;
+
+}
+.ldzq-container .content .imgs-wrap{
+	/*box-sizing: border-box;*/
+	width: 5.55rem;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 0.01rem;
+	/*border: 1px solid black;*/
+}
+.ldzq-container .content .section2 .kulun{
+	position: absolute;
+	top: .9rem;
+	left: .1rem;
+	width: 5.31rem;
+	height: 5.31rem;
+}
+.ldzq-container .content .section2 .kulun img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun1{
+	position: absolute;
+	top: .48rem;
+	left: 2.13rem;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+}
+.ldzq-container .content .section2 .small-chilun1 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun6{
+	position: absolute;
+	top: 1.77rem;
+	left: 0;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+}
+.ldzq-container .content .section2 .small-chilun6 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun2{
+	position: absolute;
+	top: 1.77rem;
+	right:0;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+	
+}
+.ldzq-container .content .section2 .small-chilun2 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun5{
+	position: absolute;
+	top: 4.14rem;
+	left: 0;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+	
+}
+.ldzq-container .content .section2 .small-chilun5 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun3{
+	position: absolute;
+	top: 4.14rem;
+	right: 0;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+	
+}
+.ldzq-container .content .section2 .small-chilun3 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .small-chilun4{
+	position: absolute;
+	bottom: -0.48rem;
+	left: 50%;
+	margin-left: -0.62rem;
+	width: 1.24rem;
+	height: 1.24rem;
+	z-index: 2;
+	
+}
+.ldzq-container .content .section2 .small-chilun4 img{
+	display: block;
+	width: 100%;
+}
+.ldzq-container .content .section2 .zhizhen{
+	position: absolute;
+	bottom: 1.654rem;
+	left: 50%;
+	margin-left: -0.504rem;
+	width: .96rem;
+	height: 1.84rem;
+	/*border: 2px dashed red;*/
+	
+}
+.ldzq-container .content .section2 .zhizhen div{
+	position: absolute;
+	top: .22rem;
+	left: .24rem;
+	width: .48rem;
+	height: .92rem;
+	z-index: 4;
+	/*border: 1px solid black;*/
+}
+.ldzq-container .content .section2 .zhizhen img{
+	display: block;
+	width: 100%;
+}
+@keyframes name{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.ldzq-container .content .section2 .small-chilun1 img{
+	animation:name 6s linear infinite;
+}
+.ldzq-container .content .section2 .small-chilun2 img{
+	animation:name 6s linear 0.5s infinite;
+}
+.ldzq-container .content .section2 .small-chilun3 img{
+	animation:name 6s linear 1s infinite;
+}
+.ldzq-container .content .section2 .small-chilun4 img{
+	animation:name 6s linear 1.5s infinite;
+}
+.ldzq-container .content .section2 .small-chilun5 img{
+	animation:name 6s linear 2s infinite;
+}
+.ldzq-container .content .section2 .small-chilun6 img{
+	animation:name 6s linear 2.3s infinite;
+}
+.ldzq-container .content .section2 .big-chilun img{
+	animation:name1 13s linear  infinite;
+}
+
+@keyframes name1{
+	from{ transform:rotate(0deg);}
+	to{  transform:rotate(-360deg);}
+}
+.ldzq-container .content .section2 .img-wrap{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: .7rem;
+	overflow: hidden;
+}
+
+.ldzq-container .content .section2 .img-wrap a{
+	float: left;
+	display: none;
+}
+.ldzq-container .content .section2 .img-wrap .a1{
+	position: relative;
+	left: 50%;
+	margin-left: -3.335rem;
+	width: 6.67rem;
+}
+.ldzq-container .content .section2 .img-wrap .a1 div{
+	width: 6.67rem;
+	height: 3.63rem;
+	margin-top: 0.05rem;
+	/*margin-left: .415rem;*/
+	/*animation-duration: 3s;*/
+}
+.ldzq-container .content .section2 .img-wrap .a1 p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a1 div img{
+	display: block;
+	width: 100%;
+	height: 3.63rem;
+	animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a2{
+	position: relative;
+	left: 50%;
+	width: 6.17rem;
+	margin-left: -3.085rem;
+}
+.ldzq-container .content .section2 .img-wrap .a2 div{
+	width: 6.17rem;
+	height: 2.99rem;
+	margin-top: .45rem;
+	/*margin-left: .665rem;*/
+	/*animation-duration: 3s;*/
+}
+.ldzq-container .content .section2 .img-wrap .a2 p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.ldzq-container .content .section2 .img-wrap .a2 div img{
+	display: block;
+	width: 100%;
+	animation-iteration-count: 1;
+    animation-delay: 1.8s;
+    animation-duration: 2s;
+}
+.ldzq-container .content .section2 .img-wrap .a3{
+	position: relative;
+	width: 6.32rem;
+	left: 50%;
+	margin-left: -3.16rem;
+}
+.ldzq-container .content .section2 .img-wrap .a3 div{
+	width: 6.32rem;
+	height: 3.49rem;
+	margin-top: .17rem;
+	/*margin-left: .59rem;*/
+}
+
+.ldzq-container .content .section2 .img-wrap .a3 p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a3 div img{
+	display: block;
+	width: 100%;
+	animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a4{
+	position: relative;
+	width: 5.54rem;
+	left: 50%;
+	margin-left: -2.77rem;
+}
+.ldzq-container .content .section2 .img-wrap .a4 div{
+	width: 5.54rem;
+	height: 3.11rem;
+	margin-top: .45rem;
+	/*margin-left: .98rem;*/
+}
+
+.ldzq-container .content .section2 .img-wrap .a4 p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a4 div img{
+	display: block;
+	width: 100%;
+	animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a5{
+	position: relative;
+	width: 6.01rem;
+	left: 50%;
+	margin-left: -3rem;
+}
+.ldzq-container .content .section2 .img-wrap .a5 div{
+	width: 6.01rem;
+	height: 2.89rem;
+	margin-top: .45rem;
+	/*margin-left: .745rem;*/
+}
+
+.ldzq-container .content .section2 .img-wrap .a5 p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a5 div img{
+	display: block;
+	width: 100%;
+	animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a6{
+	position: relative;
+	width: 7.17rem;
+	left: 50%;
+	margin-left: -3.58rem;
+}
+.ldzq-container .content .section2 .img-wrap .a6 div{
+	width: 7.17rem;
+	height: 2.96rem;
+	margin-top: .45rem;
+	/*margin-left: .165rem;*/
+}
+
+.ldzq-container .content .section2 .img-wrap .a6 p{
+	width: 100%;
+	/*margin-left: 2.72rem;*/
+	text-align: center;
+	color: white;
+	font-size: .34rem;
+	letter-spacing: 1px;
+	animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.ldzq-container .content .section2 .img-wrap .a6 div img{
+	display: block;
+	width: 100%;
+	animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+/*.ldzq-container .footer{
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	background: pink;
+}*/

@@ -1,0 +1,121 @@
+body{
+    background: #f2f4f7;
+}
+/*@media screen and (orientation: portrait) {*/
+/*!*竖屏 css*!*/
+/*.cont-checks{*/
+/*display: block;*/
+/*}*/
+
+/*}*/
+/*@media screen and (orientation: landscape) {*/
+/*!*横屏 css*!*/
+/*.cont-checks{*/
+/*display: none;*/
+/*}*/
+/*}*/
+.content{
+    position: relative;
+    background: url("../image/wj_bgc.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    box-sizing: border-box;
+    padding: 1.1rem 0 1.96rem 0;
+}
+.cont-shebei{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.cont-shebei img{
+    width:60%;
+    margin: 15% 20% 28% 20%;
+}
+/*选择标签开始*/
+.cont-checks{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cont-checks ul{
+    overflow: hidden;
+}
+.cont-checks ul li a{
+    display: inline-block;
+}
+.check-one,.check-three,.check-two,.check-four,.check-five{
+    width: 7.5%;
+}
+/*第一个*/
+.check-one{
+    margin: 60% 0 0 50%;
+}
+.check-one a{
+    width: 100%;
+}
+.check-one a>img{
+    width: 100%;
+}
+/*第二个*/
+.check-two{
+    margin-left: 50%;
+}
+.check-two a{
+    display: block;
+    width: 100%;
+}
+.check-two a>img{
+    width: 100%;
+}
+/*第三个*/
+.check-three{
+    margin-left: 40%;
+}
+.check-three a{
+    display: block;
+    width: 100%;
+}
+.check-three a>img{
+    width: 100%;
+}
+/*第四个*/
+.check-four{
+    margin-left: 32%;
+    margin-top: 1%;
+}
+.check-four a{
+    display: block;
+    width: 100%;
+}
+.check-four a>img{
+    width: 100%;
+}
+/*第五个*/
+.check-five{
+    margin: 60% 0 0 27%;
+}
+.check-five a{
+    display: block;
+    width: 100%;
+}
+.check-five a>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
