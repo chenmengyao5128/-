@@ -1,16 +1,17 @@
 .jwf1310-container {
-	width: 100%;
-	height: 100%;
+	/*width: 100%;
+	height: 100%;*/
 	/*overflow-x: hidden;*/
 	overflow: hidden;
 }
-
+/*.jwf1310-container .content{
+	margin-top: 0.88rem;
+}*/
 .jwf1310-container .space {
 	width: 100%;
 	height: .2rem;
 	background: #f2f4f7;
 }
-
 .jwf1310-container .huanshi360 {
 	width: 100%;
 	margin-top: .55rem;
@@ -129,6 +130,7 @@
 }
 
 .jwf1310-container .qianshenxitong .btns .btn-one {
+	box-sizing: border-box;
 	float: left;
 	width: 2.65rem;
 	height: .6rem;
@@ -140,6 +142,8 @@
 }
 
 .jwf1310-container .qianshenxitong .btns .btn-two {
+	box-sizing: border-box;
+	
 	float: right;
 	width: 2.65rem;
 	height: .6rem;
@@ -316,22 +320,21 @@
 	background: rgba(0,0,0,.6);
 	width: 100%;
 	display: none;
+	z-index: 100000;
 }
 .jwf1310-container .qianshenbianhuan-video div{
 	width:100% ;
-	height: 5rem;
-	top: 50%;
-	margin-top: -2.5rem;
-	position: relative;
+	height: auto;
+	top: 30%;
+	position: absolute;
 }
 .jwf1310-container .qianshenbianhuan-video video{
-	position: absolute;
 	width: 100%;
-	height: 5rem;
+	height: 100%;
 }
 .jwf1310-container .qianshenbianhuan-video span{
 	position: absolute;
-	top: 9%;
+	top: 1%;
 	right: 1%;
 	color: white;
 }
@@ -380,22 +383,22 @@
 	background: rgba(0,0,0,.6);
 	width: 100%;
 	display: none;
+	z-index: 100000;
 }
 .jwf1310-container .zidongduantiao-video div{
 	width:100% ;
-	height: 5rem;
-	top: 50%;
-	margin-top: -2.5rem;
-	position: relative;
+	height: auto;
+	top: 30%;
+	position: absolute;
 }
 .jwf1310-container .zidongduantiao-video video{
-	position: absolute;
+	/*position: absolute;*/
 	width: 100%;
-	height: 5rem;
+	height: 100%;
 }
 .jwf1310-container .zidongduantiao-video span{
 	position: absolute;
-	top: 9%;
+	top: 1%;
 	right: 1%;
 	color: white;
 }
@@ -439,6 +442,7 @@
 /*视频演示*/
 .jwf1310-container .shipinyanshi {
 	width: 100%;
+	margin-bottom: 0.3rem;
 }
 
 .jwf1310-container .shipinyanshi .shipinyanshi-title{
@@ -472,23 +476,24 @@
 	right: 0;
 	background: rgba(0,0,0,.6);
 	width: 100%;
+	/*height: 5rem;*/
 	display: none;
+	z-index: 100000;
 }
 .jwf1310-container .shipinyanshi-video div{
-	width:100% ;
-	height: 5rem;
-	top: 50%;
-	margin-top: -2.5rem;
-	position: relative;
+ 	position: absolute;
+ 	width: 100%;
+ 	top: 30%;
+ 	left: 0;
+ 	height: auto;
 }
 .jwf1310-container .shipinyanshi-video video{
-	position: absolute;
-	width: 100%;
-	height: 5rem;
+ 	width: 100%;
+ 	height: 100%;
 }
 .jwf1310-container .shipinyanshi-video span{
-	position: absolute;
-	top: 9%;
-	right: 1%;
-	color: white;
+ 	position: absolute;
+ 	top: 1%;
+ 	right: 1%;
+ 	color: white;
 }

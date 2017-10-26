@@ -1,0 +1,40 @@
+body{
+    background: #f2f4f7;
+}
+
+/*内容部分*/
+.titles ul{
+    padding: 0.5rem 0 0.4rem 0.3rem;
+}
+.titles ul li{
+    font-size: 0.28rem;
+    font-family: 微软雅黑;
+    padding-bottom: 0.2rem;
+}
+.cont-img{
+    width: 100%;
+}
+.cont-img ul{
+    width: 100%;
+}
+.cont-img ul li{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    background: #fff;
+}
+.cont-img ul li img{
+    width: 100%;
+    padding: 0.32rem;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+

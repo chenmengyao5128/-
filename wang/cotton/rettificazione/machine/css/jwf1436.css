@@ -1,0 +1,242 @@
+body{
+    background: #f2f4f7;
+}
+/*顶部360℃幻灯片*/
+.jwf360du{
+    width: 100%;
+}
+.threesixty img{
+    width: 100%;
+}
+/*恒张力纺纱，牵伸型式，清洁系统*/
+.systemProduct{
+    width: 100%;
+}
+.systemProduct ul{
+    width: 100%;
+}
+.systemProduct ul li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.32rem 0 0.32rem;
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.systemProduct ul li p{
+    box-sizing: border-box;
+    padding: 0.4rem 0.24rem 0.3rem 0.24rem;
+}
+.systemProduct ul li p img{
+    width: 100%;
+}
+.systemProduct ul li .dongtai-img{
+    width: 100%;
+    padding-bottom: 0.2rem;
+}
+.systemProduct ul li .dongtai-img img{
+    width: 100%;
+}
+.systemProduct ul li h3{
+    font-size:0.24rem ;
+    font-weight: 500;
+    color: #666666;
+    font-family: 微软雅黑;
+}
+.systemProduct ul li .instructThreeOne{
+    padding-bottom: 0.30rem;
+}
+.systemProduct ul li .instructThreeTwo{
+    padding-bottom: 0.20rem;
+}
+
+/*喂入型式*/
+.weiruqianshi{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 0.2rem;
+    box-sizing: border-box;
+    padding: 0 0.32rem;
+}
+.wr-title{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem 0.24rem 0.3rem 0.24rem;
+}
+.wr-title img{
+    width: 100%;
+}
+.wr-btns{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+}
+.wr-btns p{
+    border: 1px solid #8c92aa;
+    color: #8a95a9;
+    width: 38%;
+    text-align: center;
+    padding: 0.16rem 0;
+    border-bottom-left-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    -webkit-border-bottom-left-radius: 0.1rem;
+    -webkit-border-bottom-right-radius: 0.1rem;
+    -webkit-border-top-left-radius: 0.1rem;
+    -webkit-border-top-right-radius: 0.1rem;
+}
+.wr-btns .wrs-btn-one{
+    border: 0;
+    background: #01c09e;
+    color: #fff;
+    float: left;
+    margin-left: 5%;
+}
+.wr-btns .wrs-btn-two{
+    float: right;
+    margin-right: 5%;
+}
+.wr-imgandinstruct,.wr-imgandinstruct .wr-image-indtruct,
+.wr-imgandinstruct .wr-image-indtruct>img {
+    width: 100%;
+}
+.wr-imgandinstruct .wr-instruct{
+    font-size: 0.24rem;
+    color: #666666;
+    padding: 0.2rem 0;
+}
+
+/*电控系统*/
+.dk-system{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 0.2rem;
+    box-sizing: border-box;
+    padding: 0 0.32rem;
+}
+.dk-title{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem 0.24rem 0.3rem 0.24rem;
+}
+.dk-title img{
+    width: 100%;
+}
+.dk-btns{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+}
+.dk-btns p{
+    border: 1px solid #8c92aa;
+    color: #8a95a9;
+    width: 38%;
+    text-align: center;
+    padding: 0.16rem 0;
+    border-bottom-left-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    -webkit-border-bottom-left-radius: 0.1rem;
+    -webkit-border-bottom-right-radius: 0.1rem;
+    -webkit-border-top-left-radius: 0.1rem;
+    -webkit-border-top-right-radius: 0.1rem;
+}
+.dk-btns .dk-btn-one{
+    border: 0;
+    background: #01c09e;
+    color: #fff;
+    float: left;
+    margin-left: 5%;
+}
+.dk-btns .dk-btn-two{
+    float: right;
+    margin-right: 5%;
+}
+.dk-imgandinstructB,.dk-image-indtruct,.dk-imgandinstructC,.dk-image-indtruct{
+    width: 100%;
+}
+.dk-image-indtructC{
+    display: none;
+}
+.dk-image-indtruct{
+    text-align: center;
+}
+.dk-image-indtruct img{
+    width: 34%;
+}
+.dk-instructTitle,.dk-instruct{
+    font-size: 0.24rem;
+    color: #666666;
+}
+.dk-instructTitle{
+    padding-top: 0.20rem;
+    font-weight: 600;
+}
+.dk-instruct{
+    padding-bottom: 0.20rem;
+}
+/*参数规格*/
+.cs-spec{
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 0.32rem;
+}
+.cs-btns{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+}
+.cs-btns p{
+    border: 1px solid #8c92aa;
+    color: #8a95a9;
+    width: 38%;
+    text-align: center;
+    padding: 0.16rem 0;
+    border-bottom-left-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    -webkit-border-bottom-left-radius: 0.1rem;
+    -webkit-border-bottom-right-radius: 0.1rem;
+    -webkit-border-top-left-radius: 0.1rem;
+    -webkit-border-top-right-radius: 0.1rem;
+}
+.cs-btns .cs-btn-one{
+    border: 0;
+    background: #01c09e;
+    color: #fff;
+    float: left;
+    margin-left: 5%;
+}
+.cs-btns .cs-btn-two{
+    float: right;
+    margin-right: 5%;
+}
+.cs-spec .cs-title{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem 0.24rem 0.3rem 0.24rem;
+}
+.cs-title img{
+    width: 100%;
+}
+.cs-table{
+    width: 100%;
+    padding-bottom: 0.20rem;
+}
+.cs-table img{
+    width: 100%;
+}
+
+/*公共样式*/
+.systemProduct ul li .instructThreeOne,
+.systemProduct ul li .instructThreeTwo,
+.wr-imgandinstruct .wr-instruct,.dk-instructTitle,
+.dk-instruct {
+    line-height: 1.5;
+}
+
+
+

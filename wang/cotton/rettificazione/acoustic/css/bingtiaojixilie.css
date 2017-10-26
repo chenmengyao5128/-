@@ -1,18 +1,15 @@
-.bingtiaoxilie-container{
-	width: 100%;
-	height: 100%;
-}
-.bingtiaoxilie-container .header{
+
+/*.bingtiaoxilie-container .header{
 	position: fixed;
 	top: 0;
 	bottom: 0;
-}
-.bingtiaoxilie-container .space1{
+}*/
+/*.bingtiaoxilie-container .space1{
 	margin-top: 0.88rem;
 	width: 100%;
 	height: .2rem;
 	background: #f2f4f7;
-}
+}*/
 /*总线流程*/
 .bingtiaoxilie-container .zongxianliucheng{
 	width: 100%;

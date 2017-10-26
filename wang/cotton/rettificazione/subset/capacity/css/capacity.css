@@ -42,10 +42,10 @@
 .below-element >p:nth-child(4){margin-bottom: 0.6rem;}
 .element-gif{width: 1005;margin: 0.2rem 0;}
 .element>.below-element>.gif-p{margin-bottom: 0.4rem;}
-.below-element>.shop_gif{margin-top: 0;margin-bottom: 0.6rem;background:  url(../img/yarn-3.png) no-repeat;}
-.shop{background:  url(../img/yarn.png) no-repeat;}
-.shop-2{background:  url(../img/yarn-2.png) no-repeat;}
-.shop-4{background:  url(../img/yarn-4.png) no-repeat;}
-.below-element>.shop-5{background:  url(../img/yarn-5.png) no-repeat;}
-.below-element>.shop-6{background:  url(../img/yarn-6.png) no-repeat;    height: 3.6rem;}
-.video-2>.shop-7{background:  url(../img/yarn-7.png) no-repeat;}
+.below-element>.shop_gif{margin-top: 0;margin-bottom: 0.6rem;background:  url(../img/yarn-3.png) no-repeat;background-size: 100%;}
+.shop{background:  url(../img/yarn.png) no-repeat;background-size: 100%;}
+.shop-2{background:  url(../img/yarn-2.png) no-repeat;background-size: 100%;}
+.shop-4{background:  url(../img/yarn-4.png) no-repeat;background-size: 100%;}
+.below-element>.shop-5{background:  url(../img/yarn-5.png) no-repeat;background-size: 100%;}
+.below-element>.shop-6{background:  url(../img/yarn-6.png) no-repeat;    height: 3.6rem;background-size: 100%;}
+.video-2>.shop-7{background:  url(../img/yarn-7.png) no-repeat;background-size: 100%;}
