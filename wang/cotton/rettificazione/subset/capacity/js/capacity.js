@@ -16,16 +16,16 @@ $(function(){
 		
 	});
 	//视屏打开
-	$(".play").click(function () {
-        $(this).nextAll().addClass('show');
-		$(this).nextAll().find('video').get(0).play();
-		$(this).hide();
-		$('h2').text($('video').offset().top);
-    });
-    //视屏关闭
-    $(".closeit").click(function () {
-    	$(".play").show()
-        $(".player video").trigger('pause');
-        $('.shop_bj>div').removeClass('show');
-    });
+//	$(".play").click(function () {
+//      $(this).nextAll().addClass('show');
+//		$(this).nextAll().find('video').get(0).play();
+//		$(this).hide();
+//		$('h2').text($('video').offset().top);
+//  });
+//  //视屏关闭
+//  $(".closeit").click(function () {
+//  	$(".play").show()
+//      $(".player video").trigger('pause');
+//      $('.shop_bj>div').removeClass('show');
+//  });
 })

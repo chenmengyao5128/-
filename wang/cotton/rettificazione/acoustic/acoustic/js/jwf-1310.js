@@ -13,25 +13,27 @@ $(function(){
 		$("body").css({"overflow-y":"auto"});
 		});
 	});
-	$(".qianshenbianhuan").click(function(){
-		$(".qianshenbianhuan-video").show(300);
-		$(".qianshenbianhuan-video span").click(function(){
-			$(".qianshenbianhuan-video").hide(300);
-			$(".qianshenbianhuan-video video").get(0).pause();
-		});
-	});
-	$(".zidongduantiao").click(function(){
-		$(".zidongduantiao-video").show(300);
-		$(".zidongduantiao-video span").click(function(){
-			$(".zidongduantiao-video").hide(300);
-			$(".zidongduantiao-video video").get(0).pause();
-		});
-	});
-	$(".shipinyanshi").click(function(){
-		$(".shipinyanshi-video").show(300);
-		$(".shipinyanshi-video span").click(function(){
-			$(".shipinyanshi-video").hide(300);
-			$(".shipinyanshi-video video").get(0).pause();
-		});
+	//视屏打开
+	$(".play").click(function () {
+        $(this).next().addClass('show');
+		$(this).next().find('video').trigger("play");
+		$(this).hide();
+    });
+    //视屏关闭
+    $(".closeit").click(function () {
+    	$(this).parent().prev().show();
+        $(this).next().find("video").trigger('pause');
+        $(this).parent().removeClass('show');
+//      $(this).next().find("video").get(0).pause();
+    });
+    //  双击暂停
+	$(".player").dblclick(function () {
+		console.log(2)
+        var x = $(this).find('video').get(0).paused;
+		if(x){
+            $(this).find('video').trigger('play');
+        }else{
+            $(this).find('video').trigger('pause');
+        }
 	});
 })

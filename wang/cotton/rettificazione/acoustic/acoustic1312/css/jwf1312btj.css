@@ -586,60 +586,60 @@
 	text-align: justify;
 }
 /*视频演示*/
-.jwf1312-container .jwf1312-shipinyanshi {
+.jwf1312-container .player>video {
 	width: 100%;
-	margin-bottom: .2rem;
+	height: 100%;
+	z-index: 1;
+	object-fit: fill;
 }
 
-.jwf1312-container .jwf1312-shipinyanshi .jwf1312-shipinyanshi-title{
-	width: 80%;
-	height: 4.533%;
-	margin: 0 auto;
-	margin-top: .4rem;
-}
-
-.jwf1312-container .jwf1312-shipinyanshi .jwf1312-shipinyanshi-title img{
-	display: block;
-	width: 100%;
-}
-.jwf1312-container .jwf1312-shipinyanshi .jwf1312-shipinyanshi-img{
-	width:91.47%;
-	height: 51.2%;
-	margin: 0 auto;
-	margin-top: .4rem;
-}
-
-.jwf1312-container .jwf1312-shipinyanshi .jwf1312-shipinyanshi-img img{
-	display: block;
-	width: 100%;
-}
-
-.jwf1312-container .jwf1312-shipinyanshi-video{
-	position: fixed;
+.jwf1312-container .player {
+	position: absolute;
 	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: rgba(0,0,0,.6);
+	transform: scale(0);
+	z-index: -1;
+	visibility: hidden;
 	width: 100%;
-	/*height: 5rem;*/
-	display: none;
-	z-index: 100000;
+	height: 100%;
+	transition: transform 0.4s ease-in-out;
 }
-.jwf1312-container .jwf1312-shipinyanshi-video div{
- 	position: absolute;
- 	width: 100%;
- 	top: 30%;
- 	left: 0;
- 	height: auto;
+
+.jwf1312-container .shop_bj {
+	width: 91.47%;
+	height: 4.2rem;
+	position: relative;
+	background-size: 100%;
+	text-align: center;
+	line-height: 4.2rem;
+	margin: 0.2rem auto;
 }
-.jwf1312-container .jwf1312-shipinyanshi-video video{
-	width: 100%;
- 	height: 100%;
+
+.jwf1312-container .closeit {
+	position: absolute;
+	top: 0.05rem;
+	right: 0.05rem;
+	font-size: 0.5rem;
+	color: #fff;
+	z-index: 9999;
+	height: 0.5rem;
+	line-height: 0.5rem;
 }
-.jwf1312-container .jwf1312-shipinyanshi-video span{
- 	position: absolute;
- 	top: 1%;
- 	right: 1%;
- 	color: white;
+
+.jwf1312-container .play {
+	font-size: 1rem;
+	color: #fff;
+}
+
+.jwf1312-container .show {
+	z-index: 100;
+	visibility: visible;
+	transform: scale(1);
+}
+.jwf1312-container .shopping {
+	background: url(../img/1312-zhinengduantiao-img.png) no-repeat;
+	background-size: 100% 100%;
+}
+.jwf1312-container .shoping-2 {
+	background: url(../img/1312-shipingyanshi-img.png) no-repeat;
+	background-size: 100% 100%;
 }
